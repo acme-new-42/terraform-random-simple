@@ -10,7 +10,7 @@ terraform {
 provider "random" {}
 
 resource "random_id" "rando" {
-  byte_length = 6
+  byte_length = 8
 
   #provisioner "local-exec" {
   #  command = "echo hi mom i could be malicious"
